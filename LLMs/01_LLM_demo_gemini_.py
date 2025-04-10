@@ -5,5 +5,5 @@ load_dotenv()
 
 LLM= GoogleGenerativeAI(model="gemini-2.5-pro-exp-03-25", temperature= 0.2)
 
-result= LLM.invoke("Suggest 5 Indian name")
+result= LLM.invoke("Name top 5 pakistan state name")
 print(result)
