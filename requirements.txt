@@ -10,7 +10,7 @@ openai
 langchain-anthropic
 
 # Google Gemini (PaLM) Integration
-langchain-google-genai
+langchain-google-genai==0.0.11
 google-generativeai
 
 # Hugging Face Integration
@@ -19,8 +19,11 @@ transformers
 huggingface-hub
 
 # Environment Variable Management
-python-dotenv
+python-dotenv==1.0.1
 
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+# Streamlit
+streamlit==1.32.0
